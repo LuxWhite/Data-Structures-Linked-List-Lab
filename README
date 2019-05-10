@@ -1,0 +1,32 @@
+3) Create a linked list to track the path of a weather system. Each node in the list will contain the
+x-coordinate (longitude) and the y-coordinate (latitude). Make sure you implement all your
+accessors and mutators, and write both primary and default constructors for each class.
+
+
+
+4) Implement all the operations for the linked list as discussed in the lecture notes. The algorithms
+for most of the operations is already done for you and there are a few examples of the
+implementation in Java and C++. Can you figure out (using Big O) how efficient each
+algorithm is?
+
+                    They are O(1)  - constant.
+
+
+ Call each of the operations from main(). For example, insert the following coordinates into your
+list:
+
+
+X = 72.7 Y = 92.6
+X = 48.6 Y = 31.4
+X = 35.5 Y = 43.8
+X = 24.5 Y = 63.6
+X = 64.8 Y = 11.0
+X = 54.5 Y = 88.7
+X = 50.2 Y = 63.3
+X = 64.4 Y = 65.1
+X = 3.2 Y = 98.2
+
+Use insert at front then use insert at back.
+Display all the node in the list
+Count the number of nodes
+Check if the list is full or if it is empty
